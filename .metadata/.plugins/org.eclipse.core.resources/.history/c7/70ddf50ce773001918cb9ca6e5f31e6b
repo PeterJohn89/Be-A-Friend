@@ -1,0 +1,34 @@
+
+public class Friend {
+	private String userName;
+	private String bio;
+	private String age;
+	private int id;
+	
+	public Friend(String userName, String bio, String age, int id){
+		this.userName = userName;
+		this.bio = bio;
+		this.age = age;
+		this.id = id;
+	}
+	
+	
+	
+	public String getUserName(){
+		return this.userName;
+	}
+	
+	public String getBio(){
+		return this.bio;
+	}
+	
+	public String getAge(){
+		return this.age;
+	}
+	
+	public int getId(){
+		
+		return this.id;
+	}
+	
+}
